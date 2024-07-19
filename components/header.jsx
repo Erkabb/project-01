@@ -27,8 +27,8 @@ const Header = () => {
             Get started project
           </button>
         </div>
-        <div>
-          <div className="max-w-xl text-start flex flex-col">
+        <div className="flex mt-20 gap-20">
+          <div className="max-w-xl text-start flex flex-col gap-5 justify-center">
             <span className="text-red-600">Let’s shift your bus</span>
             <h2 className="text-4xl">
               <strong>Shift your business fast with Shade Pro</strong>
@@ -41,7 +41,13 @@ const Header = () => {
               Get started project
             </button>
           </div>
+          <img
+            src="https://s3-alpha-sig.figma.com/img/ad3c/ac35/9a49841825f8984b6b92cb76f7e8b4dc?Expires=1722211200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cXdAWWbpjPDaL5d2rmQYND62jPe5ezceCImyr80aB8wZCdnT3pYzaTBqHboMFtssX8RKa3CPTr67HEUwIn4t9jYkSMbfYthdeEm5M6cX0Gy9l-bHLyY4bYhoCBl387iyhE6h7ofVWEMztFQljZMV9~x5ZtblFIU6zlDytwYGINKUSHMyeIfGyyLqdh-Al~0hyVqJai45BXwRHgP1qx4W4mEUGqOWgCG4T62YEGw0B5dKrOz8KoNlYQ9lelPTpaxffrvS4Fp-1nJZ1rXQvSJO6~JiLjemHKKxzbtC27th3F59h7UaN2TAOV37fDlz4~DBXesk4HIUATov1g761xTppg__"
+            alt=""
+            className="rounded-full"
+          />
         </div>
+        <div className="w-full"></div>
       </section>
     </header>
   );
