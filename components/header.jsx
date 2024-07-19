@@ -27,7 +27,7 @@ const Header = () => {
             Get started project
           </button>
         </div>
-        <div className="flex mt-20 gap-20">
+        <div className="flex mt-20 mb-10 gap-20">
           <div className="max-w-xl text-start flex flex-col gap-5 justify-center">
             <span className="text-red-600">Let’s shift your bus</span>
             <h2 className="text-4xl">
@@ -47,7 +47,7 @@ const Header = () => {
             className="rounded-full"
           />
         </div>
-        <div className="w-full"></div>
+        <div className="w-full bg-blue-600 h-1/4"></div>
       </section>
     </header>
   );
