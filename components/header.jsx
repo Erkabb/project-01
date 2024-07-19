@@ -7,7 +7,7 @@ const Header = () => {
             <h1>
               <strong>Brainwave.io</strong>
             </h1>
-            <ul className="flex gap-5 ">
+            <ul className="flex gap-5 text-base">
               <li>
                 <a href="">Demos</a>
               </li>
@@ -27,11 +27,11 @@ const Header = () => {
             Get started project
           </button>
         </div>
-        <div className="flex mt-20 mb-10 gap-20">
+        <div className="flex mt-20 mb-20 gap-20">
           <div className="max-w-xl text-start flex flex-col gap-5 justify-center">
-            <span className="text-red-600">Let’s shift your bus</span>
+            <span className="text-red-600">LET'S SHIFT YOUR BUSINESS</span>
             <h2 className="text-4xl">
-              <strong>Shift your business fast with Shade Pro</strong>
+              <strong>Shift your business fast with Shade Pro.</strong>
             </h2>
             <span className="text-stone-500">
               With lots of unique blocks, you can easily build a page without
@@ -47,7 +47,7 @@ const Header = () => {
             className="rounded-full"
           />
         </div>
-        <div className="w-full bg-blue-600 h-1/4"></div>
+      
       </section>
     </header>
   );
