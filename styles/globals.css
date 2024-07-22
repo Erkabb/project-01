@@ -3,20 +3,19 @@
 @tailwind utilities;
 
 .content {
-    height: 640px;
-    
+  height: 640px;
 }
 #content {
-    width: 600px;
+  width: 600px;
 }
 #footer-section {
-    height: 770px;
+  height: 770px;
 }
-#get{
-    width: 1000px;
-    height: 110px;
+#get {
+  width: 1500px;
+  height: 110px;
 }
 #footer {
-    width: 1000px;
-    height: 246px;
+  width: 1500px;
+  height: 246px;
 }

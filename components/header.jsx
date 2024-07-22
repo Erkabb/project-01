@@ -3,8 +3,8 @@ const Header = () => {
     <header>
       <section className="flex flex-col items-center">
         <div className="w-4/5 h-20 flex justify-between items-center">
-          <div className="flex flex-row gap-20 ">
-            <h1>
+          <div className="flex flex-row gap-20 items-center">
+            <h1 className="text-2xl">
               <strong>Brainwave.io</strong>
             </h1>
             <ul className="flex gap-5 text-base">
@@ -47,7 +47,6 @@ const Header = () => {
             className="rounded-full"
           />
         </div>
-      
       </section>
     </header>
   );
